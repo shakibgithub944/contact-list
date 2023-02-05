@@ -8,11 +8,11 @@ const LeftSidebar = () => {
             <ul className="w-full rounded-box text-white h-full">
                  
                 <div className='flex justify-center py-3'>
-                <Link to={'/contact'}><img className="" src={logo} alt='' /></Link>
+                <Link to={'/'}><img className="" src={logo} alt='' /></Link>
                 </div>
 
-                <Link to={'/contact'}><li className="hover-bordered p-4 mt-48">Contact</li></Link>
-                <Link to={'/massege'}><li className="hover-bordered px-4">Massege</li></Link>
+                <Link to={'/contact'}><li className="hover-bordered p-4 mt-48">Contacts</li></Link>
+                <Link to={'/massege'}><li className="hover-bordered px-4">Masseges</li></Link>
 
             </ul>
         </div>

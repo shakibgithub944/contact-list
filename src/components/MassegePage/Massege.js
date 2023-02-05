@@ -8,7 +8,7 @@ const Massege = () => {
                 <img src={leftArrow} alt=''/>
             </div>
             <div className="navbar">
-                <a href='/#' className="text-xl font-bold">Massege</a>
+                <a href='/#' className="text-xl font-bold">Masseges</a>
             </div>
         </div>
     );
